@@ -39,10 +39,12 @@
   color: rgb(90, 21, 21);
 
   text-align: center;
+
   background-image: url(./img/Petit_guide_du_vin_blanc_et_de_ses_specificites.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  display: grid;
 }
 
 .about,
@@ -72,7 +74,7 @@
 .footer {
   text-align: center;
   padding: 20px;
-  background: #83550c9e;
+  /* background: #83550c9e; */
   color: rgb(93, 26, 26);
   margin-top: 40px;
 }

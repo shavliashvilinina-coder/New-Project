@@ -1,13 +1,20 @@
 /* ვერსია 2 */
 
 .nav {
-  background: #f7f3ef;
+  align-items: center;
   color: hwb(30 10% 61%);
+  padding-top: 50px;
+  padding-right: 600px;
+
   size: 200px;
-  height: 31px;
-  width: 181px;
+  /* height: 31px;
+  width: 181px; */
 }
 
+.li_container {
+    display: flex;
+    gap: 30px;
+}
 .header {
   display: flex;
   justify-content: space-between;
@@ -34,8 +41,7 @@
 }
 
 .hero {
-  justify-content: center;
-  align-items: center;
+height: 800px;
   color: rgb(90, 21, 21);
 
   text-align: center;
@@ -44,17 +50,18 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  display: grid;
+ 
 }
 
 .about,
 .catalog,
 .contact {
+    font-size: larger;
   padding: 60px 40px;
   max-width: 1100px;
   margin: auto;
   text-align: center;
-  color: rgba(81, 8, 8, 0.991);
+  color: rgba(16, 4, 4, 0.991);
 }
 
 .catalog .wine-list {
@@ -75,6 +82,8 @@
   text-align: center;
   padding: 20px;
   /* background: #83550c9e; */
-  color: rgb(93, 26, 26);
+  color: rgb(74, 17, 17);
+  font-size:large;
+  font-style:italic;
   margin-top: 40px;
 }

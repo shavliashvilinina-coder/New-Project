@@ -1,0 +1,21 @@
+ @media (max-width: 768px){
+    .article_container {
+        flex-wrap: wrap;
+        justify-content: center;
+        
+    }
+    
+ }
+
+ @media (max-width: 480px){
+    .product_list {
+        width: 80%;
+    }
+    .icon_wrapper {
+        display: block;
+    
+    }
+    .nav {
+        display: none;
+    }
+ }

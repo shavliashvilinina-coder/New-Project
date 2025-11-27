@@ -1,47 +1,65 @@
 /* ვერსია 2 */
 
-.nav {
+/* .nav {
+  display: flex;
   align-items: center;
   color: hwb(30 10% 61%);
-  padding-top: 50px;
-  padding-right: 600px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 
-  size: 200px;
-  /* height: 31px;
-  width: 181px; */
+  
+} */
+
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  background: #83550c9e;
+  align-items: center;
+ padding-top: 20px;
+ padding-bottom: 20px;
+ 
 }
 
 .li_container {
-    display: flex;
-    gap: 30px;
-}
-.header {
   display: flex;
-  justify-content: space-between;
-  padding: 20px 40px;
-  background: #83550c9e;
-  color: rgba(54, 48, 152, 0.875);
-  /* position: sticky; */
-  /* top: 0; */
+  gap: 30px;
 }
+/* .modal-content {
+    gap: inherit;
 
+
+} */
+
+.fa-solid {
+  font-size: 30px;
+  color: rgba(84, 9, 9, 0.5);
+}
 .header nav a {
-  /* display:inline-block; */
+
   color: rgb(90, 21, 21);
-  /* margin-top: 20px; */
-  justify-content: center;
-  text-decoration: none;
-  font-weight: 500;
+  font-weight: 900;
+  font-size: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  /* შემოვიტანო ფონტის დიზაინი */
+  
 }
 
-.logo {
-  font-size: 20px;
+* .logo {
+  font-size: 40px;
   font-weight: 600;
   color: rgb(90, 21, 21);
 }
 
+ /* სექცია bg_container */
+ 
+ .bg_text {
+    padding-top: 200px ;
+   
+ }
+
+
 .hero {
-height: 800px;
+  height: 800px;
   color: rgb(90, 21, 21);
 
   text-align: center;
@@ -50,13 +68,12 @@ height: 800px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
- 
 }
 
 .about,
 .catalog,
 .contact {
-    font-size: larger;
+  font-size: larger;
   padding: 60px 40px;
   max-width: 1100px;
   margin: auto;
@@ -80,10 +97,37 @@ height: 800px;
 
 .footer {
   text-align: center;
-  padding: 20px;
+  padding: 50px;
   /* background: #83550c9e; */
   color: rgb(74, 17, 17);
-  font-size:large;
-  font-style:italic;
+  font-size: large;
+  font-style: italic;
   margin-top: 40px;
+  /* დავაშორო ერთმანეთს */
+}
+
+
+
+/* ეს არის კატალოგის გვერდი  */
+
+.product_list {
+    background-color: blueviolet;
+    width: 400px;
+    /* margin: 0 auto; */
+    padding: 50px;
+    /* display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center; */
+
+
+}
+.article_container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.icon_wrapper {
+    display: none;
 }

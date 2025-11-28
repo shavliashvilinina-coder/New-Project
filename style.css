@@ -134,8 +134,9 @@
   background: #d8c1889e;
   align-items: center;
   padding-top: 20px;
+  
   padding-bottom: 20px;
-  /* margin-bottom: 20px; */
+
   background-image: url(./img/vinogradniki-09.2e16d0ba.fill-720x405.jpg);
   background-size: cover;
 }
@@ -150,6 +151,40 @@
   font-style: italic;
 }
 
+/* ეს არის კონტაქტის გვერდი */
+
+.header_contact {
+  display: flex;
+
+  justify-content: space-around;
+  background: #d8c1889e;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-image: url(./img/vinogradniki-09.2e16d0ba.fill-720x405.jpg);
+  background-size: cover;
+}
+
 .modal-content {
-    padding-top: 50px;
+  padding-top: 50px;
+
+  padding: 100px;
+}
+.Login {
+  padding: 20px;
+}
+
+input {
+  padding: 5px;
+}
+.registerUser {
+  padding: 20px;
+}
+
+/* .registerModal {
+} */
+
+.acept {
+    font-size: larger;
+    
 }

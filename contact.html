@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="./responsiv.css">
 
 </head>
-<header class="header_catalog">
+<header class="header_contact">
     <div class="brand">
       <img src="./logo/Classic-Wine-Brand-SVG-Vector-Logo-.svg" alt="logo" />
       <h1 class="logo">ნაფერი</h1>
@@ -21,25 +21,44 @@
     
     <!-- <img src="./img/Petit_guide_du_vin_blanc_et_de_ses_specificites.jpg" alt=""> -->
     <div class="modal-content">
-<form action="">
-    <h2>რეგისტრაცია</h2>
+<form action="registration">
+    <h2>მომხმარებელი</h2>
       <div>
-        <label for="">სახელი</label>
-        <input type="text" placeholder="სახელი" id="regName"></div>
+       
+        <!-- <input type="text" placeholder="სახელი" id="regName"></div> -->
     <!--  დავამატო გვარის, დაბ.თარიღი,და დანარჩენი  ინფუთებიც (თემატურად)-->
       
       <div><input type="email" placeholder="ელ.ფოსტა" id="regEmail"></div>
 
       <div class="password"><input type="password" placeholder="პაროლი" id="regPassword"></div>
 
-      <div class="registerUser"><button onclick="registerUser()">რეგისტრაცია</button></div>
+      <div class="Login"><button onclick="(login)">შესვლა</button></div>
+
+      
 
     <div class="name"><input type="name" placeholder="სახელი" id="regname"></div>
 
     <div class="surname" ><input type="surname" placeholder="გვარი" id="regsurname"></div>
 
+   
 
-    <div class="dateofbirth"><input type="dateofbirth" placeholder="დაბადების თარიღი" id="regdateofbirth"></div>
+    <div class="data"><input type="data" placeholder="დაბადების თარიღი" id="data"></div>
+
+     <div><input type="email" placeholder="ელ.ფოსტა" id="regEmail"></div>
+
+      <div class="password"><input type="password" placeholder="პაროლი" id="regPassword"></div>
+
+      <div class="password"><input type="password" placeholder="გაიმეორე პაროლი" id="regPassword"></div>
+
+
+    
+    <div class="acept">
+      <p>მონიშნე ველი თუ არ ხარ რობოტი</p>
+ <div class="radio"><input type="radio" placeholder="არ ვარ რობოტი"></div>
+    </div>
+   
+
+    <div class="registerUser"><button onclick="registerUser()">რეგისტრაცია</button></div>
 </form>
       
   </div>

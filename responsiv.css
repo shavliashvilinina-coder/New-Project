@@ -19,3 +19,12 @@
         display: none;
     }
  }
+ .modal-content 
+    input, label {
+    margin-bottom: 20px;
+    display: block;
+  
+     
+
+
+}

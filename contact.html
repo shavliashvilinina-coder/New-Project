@@ -9,6 +9,12 @@
     <link rel="stylesheet" href="./responsiv.css">
 
 </head>
+<header class="header_catalog">
+    <div class="brand">
+      <img src="./logo/Classic-Wine-Brand-SVG-Vector-Logo-.svg" alt="logo" />
+      <h1 class="logo">ნაფერი</h1>
+    </div>
+    </header>
 <body>
   
   <div id="registerModal" class="modal">
@@ -21,14 +27,33 @@
         <label for="">სახელი</label>
         <input type="text" placeholder="სახელი" id="regName"></div>
     <!--  დავამატო გვარის, დაბ.თარიღი,და დანარჩენი  ინფუთებიც (თემატურად)-->
+      
       <div><input type="email" placeholder="ელ.ფოსტა" id="regEmail"></div>
-      <div><input type="password" placeholder="პაროლი" id="regPassword"></div>
-      <div><button onclick="registerUser()">რეგისტრაცია</button></div>
-    </div>
+
+      <div class="password"><input type="password" placeholder="პაროლი" id="regPassword"></div>
+
+      <div class="registerUser"><button onclick="registerUser()">რეგისტრაცია</button></div>
+
+    <div class="name"><input type="name" placeholder="სახელი" id="regname"></div>
+
+    <div class="surname" ><input type="surname" placeholder="გვარი" id="regsurname"></div>
+
+
+    <div class="dateofbirth"><input type="dateofbirth" placeholder="დაბადების თარიღი" id="regdateofbirth"></div>
 </form>
       
   </div>
         <!-- <img src="./img/Petit_guide_du_vin_blanc_et_de_ses_specificites.jpg" alt=""> -->
     
 </body>
+ <footer class="footer_contact">
+    
+     <div>
+    <h5>კონტაქტი</h5>
+    <p>Email: info@naferi.ge</p>
+    <p>ტელ: +995 000 000 000</p>
+    <p>© 2025 ნაფერი. ყველა უფლება დაცულია.</p>
+     </div>
+  <!-- ჩავამატო აიქონებო ცალკე div შემოვიტანო -->
+  </footer>
 </html>

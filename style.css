@@ -9,15 +9,15 @@
   
 } */
 
-
 .header {
   display: flex;
   justify-content: space-around;
-  background: #83550c9e;
+  background: #cc8f2d9e;
+  background-image: url(./img/ვენახის_ბოძი_01-1024x683.jpg);
+  background-size: cover;
   align-items: center;
- padding-top: 20px;
- padding-bottom: 20px;
- 
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .li_container {
@@ -35,28 +35,25 @@
   color: rgba(84, 9, 9, 0.5);
 }
 .header nav a {
-
-  color: rgb(90, 21, 21);
+  color: rgb(105, 14, 14);
   font-weight: 900;
-  font-size: 30px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 35px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   /* შემოვიტანო ფონტის დიზაინი */
-  
 }
 
 * .logo {
-  font-size: 40px;
+  font-size: 30px;
   font-weight: 600;
   color: rgb(90, 21, 21);
 }
 
- /* სექცია bg_container */
- 
- .bg_text {
-    padding-top: 200px ;
-   
- }
+/* სექცია bg_container */
 
+.bg_text {
+  padding-top: 200px;
+  font-size: xx-large;
+}
 
 .hero {
   height: 800px;
@@ -102,32 +99,57 @@
   color: rgb(74, 17, 17);
   font-size: large;
   font-style: italic;
-  margin-top: 40px;
+  /* margin-top: 40px; */
+  background-image: url(./img/ვენახის_ბოძი_01-1024x683.jpg);
   /* დავაშორო ერთმანეთს */
 }
 
-
-
-/* ეს არის კატალოგის გვერდი  */
-
 .product_list {
-    background-color: blueviolet;
-    width: 400px;
-    /* margin: 0 auto; */
-    padding: 50px;
-    /* display:flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center; */
-
-
+  background-color: #b08c539e;
+  width: 400px;
+  font-size: large;
+  text-align: center;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 .article_container {
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 20px;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
 }
 
 .icon_wrapper {
-    display: none;
+  display: none;
+}
+
+/* ეს არის კატალოგის გვერდი  */
+
+.header_catalog {
+  display: flex;
+
+  justify-content: space-around;
+  background: #d8c1889e;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  /* margin-bottom: 20px; */
+  background-image: url(./img/vinogradniki-09.2e16d0ba.fill-720x405.jpg);
+  background-size: cover;
+}
+
+.footer_contact {
+  margin-top: 300px;
+  text-align: center;
+  padding: 50px;
+  /* background: #83550c9e; */
+  color: rgb(74, 17, 17);
+  font-size: large;
+  font-style: italic;
+}
+
+.modal-content {
+    padding-top: 50px;
 }

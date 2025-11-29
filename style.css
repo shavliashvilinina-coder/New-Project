@@ -111,8 +111,13 @@
   font-size: large;
   font-style: italic;
   background-image: url(./img/ვენახის_ბოძი_01-1024x683.jpg);
+  
 }
+ .icon_wrapper1 {
+padding: 20px;
 
+color: rgb(16, 3, 65);
+ }
 .product_list {
   background-color: #b08c539e;
   width: 400px;
@@ -150,15 +155,17 @@
   background-size: cover;
 }
 
-.footer_contact {
-  margin-top: 300px;
-  text-align: center;
-  padding: 50px;
+/* .footer {
+  
 
   color: rgb(74, 17, 17);
   font-size: large;
   font-style: italic;
-}
+
+  background-image: url(./img/ვენახის_ბოძი_01-1024x683.jpg); 
+
+  
+}  */
 
 /* ეს არის კონტაქტის გვერდი */
 
@@ -176,7 +183,6 @@
 
 .modal-content {
   padding-top: 50px;
-
   padding: 100px;
 }
 .Login {
@@ -248,11 +254,11 @@ input {
 
 
 
-.footer_about {
+/* .footer_about {
   
   text-align: center;
   padding: 50px;
   color: rgb(74, 17, 17);
   font-size: large;
   font-style: italic;
-}
+} */

@@ -1,14 +1,5 @@
 /* ვერსია 2 */
 
-/* .nav {
-  display: flex;
-  align-items: center;
-  color: hwb(30 10% 61%);
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-
-  
-} */
-
 .header {
   display: flex;
   justify-content: space-around;
@@ -24,35 +15,57 @@
   display: flex;
   gap: 30px;
 }
-/* .modal-content {
-    gap: inherit;
-
-
-} */
 
 .fa-solid {
-  font-size: 30px;
-  color: rgba(84, 9, 9, 0.5);
+  font-size: 40px;
+
+  color: rgb(7, 6, 6);
 }
 .header nav a {
   color: rgb(105, 14, 14);
   font-weight: 900;
   font-size: 35px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  /* შემოვიტანო ფონტის დიზაინი */
+
+ 
 }
 
+.barlow-semi-condensed-thin {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
 * .logo {
   font-size: 30px;
   font-weight: 600;
   color: rgb(90, 21, 21);
+
 }
+
+
 
 /* სექცია bg_container */
 
 .bg_text {
   padding-top: 200px;
   font-size: xx-large;
+}
+.search-section {
+  width: 100%;
+
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-box input {
+  width: 100%;
+  padding: 15px 20px;
+  border-radius: 40px;
+  outline: none;
+  font-size: 18px;
+  background: #f2efefc2;
+  border-color: rgb(129, 42, 42);
 }
 
 .hero {
@@ -67,9 +80,7 @@
   background-repeat: no-repeat;
 }
 
-.about,
-.catalog,
-.contact {
+.about .catalog .contact {
   font-size: larger;
   padding: 60px 40px;
   max-width: 1100px;
@@ -95,13 +106,11 @@
 .footer {
   text-align: center;
   padding: 50px;
-  /* background: #83550c9e; */
+
   color: rgb(74, 17, 17);
   font-size: large;
   font-style: italic;
-  /* margin-top: 40px; */
   background-image: url(./img/ვენახის_ბოძი_01-1024x683.jpg);
-  /* დავაშორო ერთმანეთს */
 }
 
 .product_list {
@@ -134,7 +143,7 @@
   background: #d8c1889e;
   align-items: center;
   padding-top: 20px;
-  
+
   padding-bottom: 20px;
 
   background-image: url(./img/vinogradniki-09.2e16d0ba.fill-720x405.jpg);
@@ -145,7 +154,7 @@
   margin-top: 300px;
   text-align: center;
   padding: 50px;
-  /* background: #83550c9e; */
+
   color: rgb(74, 17, 17);
   font-size: large;
   font-style: italic;
@@ -181,10 +190,69 @@ input {
   padding: 20px;
 }
 
-/* .registerModal {
-} */
-
 .acept {
-    font-size: larger;
-    
+  font-size: larger;
+}
+
+
+
+
+/* ეს არის about გვერდი */
+
+.header_about {
+  display: flex;
+
+  justify-content: space-around;
+  background: #d8c1889e;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-image: url(./img/vinogradniki-09.2e16d0ba.fill-720x405.jpg);
+  background-size: cover;
+}
+
+.cover{
+  background-image: url(./img/Petit_guide_du_vin_blanc_et_de_ses_specificites.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1000px;
+  
+}
+
+
+.brand-info {
+  
+  display: flex;
+  flex-direction: column;  
+  gap: 12px;              
+  max-width: 700px;
+  margin: 0 auto;          
+  padding: 20px;
+  line-height: 1.6;
+  font-size: 18px;
+}
+
+.brand-info h2 {
+  margin-top: 20px;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.brand-info ul {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+
+
+
+.footer_about {
+  
+  text-align: center;
+  padding: 50px;
+  color: rgb(74, 17, 17);
+  font-size: large;
+  font-style: italic;
 }

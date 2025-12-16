@@ -25,8 +25,6 @@
   color: rgb(105, 14, 14);
   font-weight: 900;
   font-size: 35px;
-
- 
 }
 
 .barlow-semi-condensed-thin {
@@ -38,20 +36,25 @@
   font-size: 30px;
   font-weight: 600;
   color: rgb(90, 21, 21);
-
 }
-
-
 
 /* სექცია bg_container */
 
 .bg_text {
   padding-top: 200px;
   font-size: xx-large;
+  padding: 20px;
+  margin: 15px;
 }
+
+.title1 {
+  padding-bottom: 30px;
+  font-weight: 900;
+  font-size: larger;
+}
+
 .search-section {
   width: 100%;
-
   height: 300px;
   display: flex;
   justify-content: center;
@@ -59,11 +62,13 @@
 }
 
 .search-box input {
+  text-align: center;
+
   width: 100%;
-  padding: 15px 20px;
+  padding: 15px 90px;
   border-radius: 40px;
   outline: none;
-  font-size: 18px;
+  font-size: 20px;
   background: #f2efefc2;
   border-color: rgb(129, 42, 42);
 }
@@ -105,34 +110,41 @@
 
 .footer {
   text-align: center;
-  padding: 50px;
-
+  padding: 30px;
   color: rgb(74, 17, 17);
-  font-size: large;
+  font-size: medium;
   font-style: italic;
-  background-image: url(./img/ვენახის_ბოძი_01-1024x683.jpg);
-  
+  background-color: lch(53.01% 63.84 67.28 / 0.416);
 }
- .icon_wrapper1 {
-padding: 20px;
 
-color: rgb(16, 3, 65);
- }
-.product_list {
-  background-color: #b08c539e;
-  width: 400px;
-  font-size: large;
-  text-align: center;
-  padding: 50px;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
+.title3 {
+  padding: 20px;
+  font-size: larger;
+  font-weight: 800;
 }
-.article_container {
-  display: flex;
-  justify-content: space-around;
-  margin-bottom: 50px;
+
+.title4 {
+  padding: 10px;
+  font-size: larger;
+  font-weight: 700;
+}
+
+.title5 {
+  padding: 10px;
+  font-size: larger;
+  font-weight: 700;
+}
+
+.title6 {
+  padding: 10px;
+  font-size: larger;
+  font-weight: 700;
+}
+
+.icon_wrapper1 {
+  padding: 20px;
+
+  color: rgb(16, 3, 65);
 }
 
 .icon_wrapper {
@@ -153,6 +165,77 @@ color: rgb(16, 3, 65);
 
   background-image: url(./img/vinogradniki-09.2e16d0ba.fill-720x405.jpg);
   background-size: cover;
+}
+
+.product_list {
+  background-color: #b08c539e;
+  width: 400px;
+  font-size: large;
+  text-align: center;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.article_container {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  gap: 60px 40px;
+
+  /* display: grid; */
+  /* grid-template-columns: repeat(3, 1fr); */
+
+  /* padding: 80px; */
+
+  /* background-color: #d7c3a0; */
+  /* padding: 30px 20px 40px; */
+
+  /* flex-direction: column; */
+  /* align-items: center; */
+}
+
+.title7 {
+  margin: 30px;
+  font-size: larger;
+  font-weight: 800;
+  color: #551111c9;
+}
+
+.title8 {
+  margin: 30px;
+  font-size: larger;
+  font-weight: 800;
+  color: #551111c9;
+}
+
+.title9 {
+  margin: 30px;
+  font-size: larger;
+  font-weight: 800;
+  color: #551111c9;
+}
+
+.title10 {
+  margin: 30px;
+  font-size: larger;
+  font-weight: 800;
+  color: #551111c9;
+}
+.title11 {
+  margin: 30px;
+  font-size: larger;
+  font-weight: 800;
+  color: #551111c9;
+}
+
+.title12 {
+  margin: 30px;
+  font-size: larger;
+  font-weight: 800;
+  color: #551111c9;
 }
 
 /* .footer {
@@ -200,9 +283,6 @@ input {
   font-size: larger;
 }
 
-
-
-
 /* ეს არის about გვერდი */
 
 .header_about {
@@ -217,31 +297,33 @@ input {
   background-size: cover;
 }
 
-.cover{
+.cover {
   background-image: url(./img/Petit_guide_du_vin_blanc_et_de_ses_specificites.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 1000px;
-  
 }
 
-
 .brand-info {
-  
   display: flex;
-  flex-direction: column;  
-  gap: 12px;              
+  flex-direction: column;
+  align-items: center;
+
+  gap: 60px;
   max-width: 700px;
-  margin: 0 auto;          
+  margin: 0 auto;
   padding: 20px;
-  line-height: 1.6;
-  font-size: 18px;
+  line-height: 1.9;
+  font-size: 20px;
+  font-weight: 600;
+  color: rgb(14, 15, 15);
+  background-color: rgba(240, 248, 255, 0.468);
 }
 
 .brand-info h2 {
-  margin-top: 20px;
-  font-size: 22px;
-  font-weight: 600;
+  margin-top: 60px;
+  font-size: 30px;
+  font-weight: 800;
 }
 
 .brand-info ul {
@@ -250,9 +332,6 @@ input {
   flex-direction: column;
   gap: 6px;
 }
-
-
-
 
 /* .footer_about {
   
